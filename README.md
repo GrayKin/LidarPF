@@ -3,7 +3,7 @@
 ### State
 $$\mathbf{x}=[x,y,\theta]^T$$
 ### State Transit function
-$$\mathbf{x}_{k+1}=f(\mathbf{x}_k)+w_{k}=\mathbf{x}_k+w_{k}$$
+$$\mathbf{x}_{k+1}=f(\mathbf{x}_k)+w_{k}$$
 
 Due to the limitations of the data, we can't get any useful prediction, so we just use the previous state as the prediction of the next state.
 ### Measurement
