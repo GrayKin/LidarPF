@@ -1,0 +1,10 @@
+resol=25;
+origin=[685,572];
+imshow(M);
+hold on;
+lidar_gobal_x=xs(:,1)*resol+origin(1);
+lidar_gobal_y=xs(:,2)*resol+origin(2);
+%lidar_gobal_x=ans(1,:)*resol+origin(1);
+%lidar_gobal_y=ans(2,:)*resol+origin(2);
+scatter(lidar_gobal_x,lidar_gobal_y,2, 'r*');
+hold off;
